@@ -28,7 +28,7 @@ public class Main
              System.out.println();
 
         System.out.println("\nAz Ön szelvényein található számok:");
-        int x =0;
+        int AllMany =0;
         for (int i = 0; i < Nnumber; i++)
 
         {
@@ -51,12 +51,12 @@ public class Main
             System.out.print(("\033[0m")+".");
             System.out.print(" -Ft.");
             System.out.println();
-            x = Hits.allmany((Hits.hits(winnerNumbers,coupunNumbers)));
+            AllMany = Hits.allmany((Hits.hits(winnerNumbers,coupunNumbers)));
         }
         System.out.println();
         System.out.print("A lottótársaság összesen: ");
         System.out.print(("\033[0;33m"));
-        System.out.print(x);
+        System.out.print(AllMany);
         System.out.print(("\033[0m")+"");
         System.out.print(" Forintot fizet Önnek.");
         System.out.println();
